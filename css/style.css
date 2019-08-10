@@ -97,7 +97,7 @@ h2 {
 }
 
 .hero {
-	background: url(img/hero.jpg);
+	background: url(/img/hero.jpg);
 	padding: 100px 0;
 }
 
