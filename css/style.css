@@ -60,7 +60,7 @@ a {
 }
 
 .jumbotron {
-	background: url(../img/Jumbotron.jpg);
+	background: url(/img/Jumbotron.jpg);
 	margin: 0 auto;
 }
 
