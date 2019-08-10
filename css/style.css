@@ -1,0 +1,179 @@
+body {
+	min-width: 1219px;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 37px;
+	font-weight: 400;
+	color: #000000;
+	font-style: normal;
+	background-color: #ffffff;
+}
+
+.wrapper {
+	padding-left: 55px;
+	padding-right: 54px;
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header {	
+	padding-top: 20px;
+	position: fixed;
+	top: 0;
+ 	left: 0;/*попробовать убрать топ и лефт  после прорисовки почти всего сайта*/
+ 	width: 100%; /* от начала до конца этой строчки хедер делается фиксированным и растягивается на прежнюю заданную ширину*/
+	background: #007765;
+	color: #ffffff;	
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+}	
+
+.menu li{
+	list-style: none;
+}
+
+.menu {
+	float: right;
+	width: 420px;
+	display: -webkit-flex;	
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top:-40px;
+}
+
+.logo {
+	
+	width: 184px;
+	height: 45px;
+	background-color: #007765;
+	margin: 0;
+}
+
+.jumbotron {
+	background: url(img/Jumbotron.jpg);
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	padding: 160px 396px;
+	margin: 0;
+}
+
+.the-problem {
+	background: #eeeeee;
+}
+
+h2 {
+	color: #007765;
+	text-align: center;
+	font-size: 64px;
+	line-height: 75px;
+	font-weight: 500;
+	margin: 0;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.the-problem p {
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.hero {
+	background: url(img/hero.jpg);
+	padding: 100px 0;
+}
+
+.hero p {
+	color: #ffffff;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+}
+.PPC {
+	background-color: #ffffff;
+	padding-bottom: 50px;
+}
+
+.imgPPC {	
+	float: left;
+	padding-right: 48px;
+	padding-top: 25px;
+}
+
+.PPC p {
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 37px;
+}
+
+.the-team {
+	background: #eeeeee;
+}
+
+.name {
+	color: #007765;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: bold;
+	font-style: normal;
+}
+.position {
+	color: #000000;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: normal;
+	font-style: italic;
+}
+ h3 {
+ 	margin: 0;
+ }
+
+.blocksteam {
+	width: 350px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.wrapper-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.footer {
+	text-align: center;
+	background: #333333;	
+}
+
+.footer p{
+	width: 540px;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	margin: 0;
+	padding-left: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
